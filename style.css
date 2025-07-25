@@ -1,0 +1,49 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-image:   url('https://www.theladders.com/wp-content/uploads/timer.jpg');
+  background-size: cover;
+  color: #fff;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  padding: 50px 20px;
+}
+
+#display {
+  font-size: 3em;
+  margin: 20px 0;
+  background: #2e2e40;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.buttons button {
+  background: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.buttons button:hover {
+  background: #45a049;
+}
+
+#laps {
+  margin-top: 20px;
+  list-style: none;
+  padding: 0;
+}
+
+#laps li {
+  background: #333;
+  margin: 5px;
+  padding: 10px;
+  border-radius: 5px;
+}
